@@ -65,8 +65,8 @@ go to back root to Install unzip logoff
 atp install unzip
 and go back to sonarqube user
 and unzip*
-chown -R sonarqube:sonarqube /opt/sonarqube
-chmod -R 775 /opt/sonarqube
+chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-10.4.1.88267
+chmod -R 775 /home/sonarqube/sonarqube-10.4.1.88267
 cd /opt/sonarqube/bin/linux-x86-64
 ./sonar.sh start
 ```
